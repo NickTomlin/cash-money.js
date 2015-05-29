@@ -1,11 +1,22 @@
 cash-money
 ---
 
-# Install
+New wave DOM selection library.
+
+# Usage
 
 `npm i cash-money`
 
-Non common-js users can import the built file in dist.
+`var $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ = require('cash-money');`
+
+```javascript
+// grab the text of every `p`
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$('p').map(function (elem) {
+  return elem.textContent;
+}).join('\n\n');
+```
+
+non CJS users can point to the script in `/dist`
 
 # Manual unit tests
 
