@@ -1,0 +1,37 @@
+{
+  "name": "cash-money",
+  "version": "1.0.0",
+  "main": "src/index",
+  "scripts": {
+    "test": "npm run build && http-server",
+    "browserify": "browserify --standalone '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$' src/index.js",
+    "build": "npm run browserify -- -o dist/cash-money.js"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "http-server": "^0.8.0",
+    "mocha": "^2.2.5"
+  },
+  "description": "A _rich_ dom selection utility",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "browserify": "^10.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NickTomlin/cash-money.js.git"
+  },
+  "keywords": [
+    "dom",
+    "cash",
+    "money"
+  ],
+  "author": "Nick Tomlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickTomlin/cash-money.js/issues"
+  },
+  "homepage": "https://github.com/NickTomlin/cash-money.js"
+}
