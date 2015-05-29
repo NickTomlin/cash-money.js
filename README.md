@@ -24,7 +24,7 @@ Non CJS users can point to the script in `/dist` and use `$$$$$$$$$$$$$$$$$$$$$$
 
 `npm t`
 
-Open the output url in your browser of choice.
+Open the output url + `/test` in your browser of choice.
 
 # Build
 
