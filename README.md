@@ -1,6 +1,8 @@
 cash-money
 ---
 
+[![NPM package](https://img.shields.io/npm/v/cash-money.svg)](https://www.npmjs.com/package/cash-money)
+
 New wave DOM selection library.
 
 # Usage
@@ -16,7 +18,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$('p').map(function (elem) {
 }).join('\n\n');
 ```
 
-non CJS users can point to the script in `/dist`
+Non CJS users can point to the script in `/dist` and use `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$`, which is conveniently placed on the window.
 
 # Manual unit tests
 
