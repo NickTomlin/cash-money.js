@@ -4,8 +4,7 @@
   "main": "src/index",
   "scripts": {
     "test": "npm run build && http-server",
-    "browserify": "browserify --standalone '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$' src/index.js",
-    "build": "npm run browserify -- -o dist/cash-money.js"
+    "build": "browserify --standalone '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$' src/index.js -o dist/cash-money.js"
   },
   "devDependencies": {
     "browserify": "^10.2.3",
